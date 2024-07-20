@@ -23,7 +23,7 @@ const ReferEarnPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3003/api/referrals', formData);
+      const response = await axios.post('https://accredian-backend-task-qgc3.onrender.com/api/referrals', formData);
       if (response.status === 200) {
         setFormData({
           referrerName: '',
