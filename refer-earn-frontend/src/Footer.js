@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <Box component="footer" py={3} mt={5} bgcolor="lightgray" textAlign="center">
       <Typography variant="body1">
-        <Link href="https://your-portfolio-link.com" target="_blank" rel="noopener noreferrer">
+        <Link href="https://gagan-yadav.github.io/" target="_blank" rel="noopener noreferrer">
           My Portfolio
         </Link>
       </Typography>
